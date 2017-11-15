@@ -1,14 +1,14 @@
-Romain VANARDOIS # m1_web_symfony_project
-Projet Master 1 Hitema - Symfony
+#Romain VANARDOIS # m1_web_symfony_project
+##Projet Master 1 Hitema - Symfony
 
-Projet
+#Projet
 
 Je vais développer une solution d'hébergement.
 Les utilisateurs peuvent s'inscrire, se connecter et ajouter des services.
 Les utilisateurs peuvent se modifier et modifier leurs services.
 Des administrateurs peuvent tout consulter et tout modifier.
 
-Mes entités seront :
+##Mes entités seront :
 
 Des utilisateurs (User) : id, email, firstname, lastname, password, role
 Des services (Service)(VPS Portfolio): id, name, price_month, price_year, User, Type, Processor, Storage, RAM
@@ -17,7 +17,7 @@ Un processeur de service (Processor)(I7, Xeon ...) : id, name, product_collectio
 Un stockage de service (Storage)(SSD 500Go, HD 40 Go): id, name, size, type, price_month
 Une RAM de service (RAM)(8 Go DDR3,4 Go DDR2 ...): id, name, size, type, price_month
 
-Mes associations d'entités seront :
+##Mes associations d'entités seront :
 
 Un utilisateur pourra avoir plusieurs services.
 Un service aura un type de service.
@@ -26,7 +26,7 @@ Un stockage aura des services.
 Une RAM aura des services.
 Un service pourra avoir des storages.
 
-Mon administrateur pourra :
+##Mon administrateur pourra :
 
 CRUD Utilisateurs
 CRUD Services
